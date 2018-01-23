@@ -1,4 +1,4 @@
-#ReactJS Sample Text Generator
+#ReactJS Sample Text Generator (uses axios - promise based http client for making Api requests)
 
 ## Available Scripts
 
