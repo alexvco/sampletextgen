@@ -10,7 +10,7 @@ class Select extends Component{
 
   onChange(e){
     this.setState({value: e.target.value}, function(){
-      this.props.onChange(this.state.value); // this is how you pass data from child to parent
+      this.props.myChange(this.state.value); // this is how you pass data from child to parent
     });
   }
 
